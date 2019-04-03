@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CrystalsCollector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <h1>CrystalsCollector!</h1>
+
+
+
+
+
+
+    <div class="paragraphs">
+        <strong>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystal below. By clicking on a crystal you will add a specific amount of points to your
+                total
+                score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes
+                above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </strong>
+
+    </div>
+
+    <div class="row">
+
+        <div class="generate-random-number">
+            <strong>
+                <p id="demo"></p>
+            </strong>
+        </div>
+
+        <div class="gameplay">
+            <h4>Wins:<span id="wins"></span></h4>
+            <h4>Losses:<span id="losses"></span></h4>
+        </div>
+    </div>
+
+    <div id="crystals">
+        <img class="crystal-1" src="https://cdn4.iconfinder.com/data/icons/free-crystal-icons/128/Emerald.png"
+            alt="image1" />
+        <img class="crystal-1" src="http://icongal.com/gallery/image/179516/topaz_jewel_gem_blue.png" alt="image2" />
+        <img class="crystal-1"
+            src="http://icons.iconarchive.com/icons/everaldo/crystal-clear/128/App-ksokoban-ruby-icon.png"
+            alt="image3" />
+        <img class="crystal-1" src="https://cdn4.iconfinder.com/data/icons/free-crystal-icons/128/Zircon.png"
+            alt="image4" />
+    </div>
+
+    <div class="totalscore">
+        <h4>Your total score is: </h4>
+    </div>
+
+    <div>
+        <span id="score"></span>
+    </div>
+
+
+    <!-- javascript -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src=assets/javascript/game.js> </script> 
+
+</body>
+
+ </html>

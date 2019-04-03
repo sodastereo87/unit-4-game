@@ -1,0 +1,83 @@
+
+
+body {
+    background-image: url("../images/convite4.jpg");
+  }
+
+.selector-for-some-widget {
+
+            box-sizing: content-box;
+        }
+
+        h1 {
+            background-color: orange;
+            width: 25%;
+            margin: 10px;
+            padding: 10px;
+        }
+
+
+        .paragraphs {
+            width: 400px;
+            background-color: blanchedalmond;
+            color: green;
+            height: 450px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .crystal-1 {    
+            background-color: rgb(241, 235, 226);
+        }
+
+
+
+        .gameplay {
+            margin: 10px;
+            margin-left: 0px;
+            padding: 10px;
+            background-color: aqua;
+            width: 7%;
+        }
+
+        .generate-random-number {
+            margin: 10px;
+            margin-left: 25px;
+            padding: 0px;
+            font-size: 30px;
+            background-color: green;
+            width: 15%;
+            float: left;
+        }
+
+        .totalscore {
+         margin: 10px;
+         padding: 1px;
+         background-color: seagreen;
+         width: 250px;
+         color: white;
+         margin-bottom: -1px;
+        }
+
+        .row {
+            margin-left: 0px;
+            margin-top: -10px;
+        }
+        
+        #score {
+            margin: 10px;
+            background-color: seagreen;
+            width: 250px;
+            color: white;
+            font-size: 50px;
+            float: left;
+            height: 100px;
+            padding: 10px;
+            
+        }
+
+        #crystals {
+            margin-left: 10px;
+        }
+
+       
